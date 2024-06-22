@@ -5,11 +5,17 @@ This PowerShell script generates a CSV report of Microsoft Teams storage usage, 
 
 ## Prerequisites
 Before running the script, ensure you have the following installed:
-- Microsoft Teams PowerShell module (`Install-Module -Name MicrosoftTeams -Force -AllowClobber`)
-- Microsoft Graph PowerShell module (`Install-Module Microsoft.Graph -Scope CurrentUser`)
+- Microsoft Teams PowerShell module
+   ```powershell
+   Install-Module -Name MicrosoftTeams -Force -AllowClobber
+- Microsoft Graph PowerShell module
+   ```powershell
+   Install-Module Microsoft.Graph -Scope CurrentUser
 
 ## Usage
-1. Clone the repository or download the script (`TeamsStorageReport.ps1`).
+1. Clone the repository or download the script.
+   ```bash
+   git clone https://github.com/RapidScripter/TeamsStorageReport
 2. Open PowerShell.
 3. Navigate to the directory where the script is located.
 4. Run the script using the following parameters:
