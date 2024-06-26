@@ -15,7 +15,7 @@ Before running the script, ensure you have the following installed:
 ## Usage
 1. Clone the repository or download the script.
    ```bash
-   git clone https://github.com/RapidScripter/TeamsStorageReport
+   git clone https://github.com/RapidScripter/TeamsStorageReport.git
 2. Open PowerShell.
 3. Navigate to the directory where the script is located.
 4. Run the script using the following parameters:
